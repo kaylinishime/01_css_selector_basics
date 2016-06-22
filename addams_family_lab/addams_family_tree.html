@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <link href='https://fonts.googleapis.com/css?family=Domine' rel='stylesheet' type='text/css'>
+  <title>Addams Family Tree</title>
+
+  <style>
+  .tree .title {
+    color: crimson;
+    text-shadow: 0px 2px 2px rgba(255, 255, 255, 0.4);
+    font-size: 32px;
+  }
+
+  .tree {
+    max-width: 1400px;
+    width: 100%;
+  }
+
+
+  img {
+    width: 150px;
+    height: 150px;
+    border: solid 4px yellow;
+  }
+
+  img:hover {
+    border-color: red;
+  }
+
+
+  body {
+    color: white;
+    background-color: black;
+    font-size: 1em;
+    font-family: "Comic Sans", sans-serif
+  }
+
+  ul {
+    list-style: none;
+    padding-left: 0;
+  }
+
+  section {
+    text-align: center;
+    width: 400px;
+    margin: auto;
+    border: solid 4px white;
+    border-radius: 8px
+  }
+
+  .name {
+    font-weight: bold;
+    color: red;
+    font-family: 'Domine', serif;
+  }
+
+  h1.title,
+  h2.title,
+  h3.title,
+  h4.title {
+    font-family: Times New Roman, serif;
+  }
+
+  #morticia,
+  #morticia h3 {
+    color: purple;
+  }
+
+  #lurch.name {
+    font-size: 24px;
+    color: green;
+  }
+
+  #wednesday li {
+    text-decoration: line-through;
+    color: gray;
+  }
+
+  #wednesday li.somber {
+    text-decoration: underline;
+  }
+
+div {
+  margin: 0 auto;
+  position: relative;
+}
+
+    /*Add styles here*/
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1 class="tree title">The Addams Family Tree</h1>
+    <img src="http://vignette3.wikia.nocookie.net/addamsfamily/images/1/15/Addamstree.png/revision/latest?cb=20130103004320" alt="gomez and cara mia" class="tree">
+  </header>
+
+  <section>
+    <h3 class="name" >Gomez Addams</h3>
+    <img src="http://images2.fanpop.com/image/photos/11200000/John-Astin-Gomez-Addams-gomez-addams-11245159-450-338.jpg" alt="Gomez">
+    <ul>
+      <li>Mustachioed</li>
+      <li>Knife Thrower</li>
+      <li>Claims Adjuster</li>
+    </ul>
+  </section>
+
+  <section id="morticia">
+    <h3 class="name">Morticia Addams</h3>
+    <img src="https://media3.giphy.com/media/a1KF6AgZV2eEU/200_s.gif" alt="Morticia">
+    <ul>
+      <li>Dry Sense of Humour</li>
+      <li>Caring Mother</li>
+      <li>Mortician</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="name">Pugsley Addams</h3>
+    <img src="http://i2.cdn.turner.com/cnnnext/dam/assets/141209131444-ken-weatherwax-restricted-story-top.jpg" alt="Pugsley">
+    <ul>
+      <li>Chubby</li>
+      <li>Loveable</li>
+      <li>Striped</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="name" id="Wednesday">Wednesday Addams</h3>
+    <img src="http://2.bp.blogspot.com/-oj26rSAgOFc/TpeQmxrE9ZI/AAAAAAAAA10/MU-OtBYWcY4/s1600/addams3.jpg" alt="Wednesday">
+    <ul id="wednesday">
+      <li class="somber">Somber</li>
+      <li>Likes Headless Dolls</li>
+      <li>In To Fratricide</li>
+    </ul>
+  </section>
+
+  <section>
+    <h3 class="name" id="lurch">Lurch</h3>
+    <img src="http://blogs.wvgazettemail.com/popmachine/files/2014/07/Lurch.jpg" alt="Lurch">
+    <ul>
+      <li>Loves To Hear Things Ring</li>
+      <li>Buuuuhhhh</li>
+      <li>DERRrrrr</li>
+    </ul>
+  </section>
+
+  <div><img src="http://lovelace-media.imgix.net/uploads/186/b0a1bab0-486a-0132-41d8-0ebc4eccb42f.gif?" width="200px"></img>
+  <img src="http://www.alignmentrescue.com/wp-content/uploads/2013/03/addams-family-thing-1.jpg" width="200px"></img>
+  </div>
+</body>
+</html>
